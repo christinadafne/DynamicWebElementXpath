@@ -18,6 +18,7 @@ public class Dynamic_population {
 					.getText();
 			System.out.println("current world population :" + pop);
 			System.out.println("TODAY");
+			
 			String birthtoday = driver.findElement(By.xpath("(//div[@class='sec-counter'])[1]//span")).getText();
 			System.out.println("Births Today :" + birthtoday);
 			String deathtoday = driver.findElement(By.xpath("(//div[@class='sec-counter'])[2]//span")).getText();
